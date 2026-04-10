@@ -25,15 +25,12 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 nav ul {
   margin-left: auto;
   margin-right: auto;
   display: flex;
   gap: 20px;
 }
-
-/* imagen a la derecha */
 .nav-container img {
   width: 60px;
   height: 60px;
@@ -76,7 +73,6 @@ nav ul {
   perspective: 1200px;
   z-index: -2; 
 }
-
 .cube {
   position: absolute;
   width: 140px;
@@ -84,7 +80,6 @@ nav ul {
   transform-style: preserve-3d;
   animation: float 6s infinite ease-in-out;
 }
-
 .face {
   position: absolute;
   width: 140px;
@@ -92,7 +87,6 @@ nav ul {
   background: linear-gradient(145deg, #10259e, #02033b);
   border-radius: 8px;
 }
-
 .front  { transform: rotateY(0deg) translateZ(70px); }
 .back   { transform: rotateY(180deg) translateZ(70px); }
 .right  { transform: rotateY(90deg) translateZ(70px); }
@@ -204,7 +198,6 @@ section {
   flex-wrap: wrap;
   gap: 20px;
 }
-
 .tags {
   display: flex;
   gap: 10px;
