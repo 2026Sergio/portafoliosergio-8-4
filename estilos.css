@@ -223,14 +223,13 @@ section {
 .social-grid {
   display: flex;
   gap: 15px;
-  justify-content: center;
   margin-top: 15px;
 }
 .social-icon {
   color: var(--neon-blue);
   text-decoration: none;
-  font-weight: 600;
-  transition: text-shadow 0.3s;
+  font-weight: 800;
+  transition: text-shadow 9.3s;
 }
 .social-icon:hover {
   text-shadow: var(--neon-shadow);
