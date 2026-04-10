@@ -4,7 +4,7 @@
   --text-light: #b6c0ce;
   --neon-blue: #00f2ff;
   --neon-shadow: 0 0 10px #7ad0d4, 0 0 20px #6ee9f0;
-  --card-bg: #040a18;
+  --card-bg: #000511;
   --border-neon: 1px solid rgba(93, 218, 224, 0.3);
   --font-main: 'Poppins', sans-serif;
 }
@@ -24,6 +24,21 @@ body {
   max-width: 1000px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+nav ul {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+}
+
+/* imagen a la derecha */
+.nav-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 nav {
   position: fixed;
